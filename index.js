@@ -1,10 +1,12 @@
 module.exports = {
     "extends": [
         "@qest/base",
+        "plugin:jsx-a11y/recommended",
+        "plugin:react/recommended",
     ],
     "settings": {
         "react": {
-            "version": "detect"
+            "version": "detect",
         }
     },
     "plugins": [
